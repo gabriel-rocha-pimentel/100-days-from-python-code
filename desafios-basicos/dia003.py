@@ -1,10 +1,17 @@
 # Conversão de Temperatura
 # Converta de celcius para fahrenheit
 # Formula de Fahrenheit F=(C×1.8)+32
-celcius = 25
+print("Farei um calculo para converter Celcius em Fahrenheint.\n")
 
-print(f"A temperatura atual em celcius é {celcius}")
+start = "SIM"
 
-fahrenheit = (celcius * 1.8) + 32
+while start[0] == "S":
+  celcius = int(input(f"Por favor insira a temperatura atual em celcius : "))
+  fahrenheit = (celcius * 1.8) + 32
 
-print(f"A conversão para fahrenheit é {fahrenheit}")
+  print(f"\nA conversão de {celcius} Celcius para fahrenheit é : {fahrenheit} fahrenheit")
+
+  start = str(input("\nQuer continuar ? Sim ou Não\n>>>\t")).upper()
+
+  if start[0] != "N":
+    print("Por favor, insira [NÃO] para parar o programa !")
