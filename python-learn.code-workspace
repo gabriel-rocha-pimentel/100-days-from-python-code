@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+
+    "editor.tabSize": 2,
+
+    "editor.insertSpaces": true,
+
+    "files.eol": "\n",
+
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    },
+
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+
+    "files.maxMemoryForLargeFilesMB": 4096
+  }
+}
